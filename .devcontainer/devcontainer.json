@@ -1,0 +1,41 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/docker-outside-of-docker
+{
+  "name": "Go, aqua, dev container",
+  "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "editorconfig.editorconfig",
+        "ms-azuretools.vscode-containers",
+        "redhat.vscode-yaml",
+        "golang.go",
+        "DavidAnson.vscode-markdownlint",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  },
+  "mounts": [
+    "type=volume,source=${localWorkspaceFolderBasename}-aqua,target=/home/vscode/.local/share/aquaproj-aqua",
+    "type=volume,source=${localWorkspaceFolderBasename}-go-cache,target=/home/vscode/.cache/go-build",
+    "type=volume,source=${localWorkspaceFolderBasename}-go-mod-cache,target=/home/vscode/go/pkg/mod"
+  ],
+  "features": {
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1.6.5": {
+      "version": "latest",
+      "enableNonRootDocker": "true",
+      "moby": "true"
+    },
+    "ghcr.io/aquaproj/devcontainer-features/aqua-installer:0.1.6": {
+      "aqua_version": "v2.55.1"
+    }
+  },
+  "remoteEnv": {
+    // Add packages managed by aqua
+    "PATH": "/home/vscode/.local/share/aquaproj-aqua/bin:${containerEnv:PATH}",
+    // Docker settings
+    "LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}"
+  },
+  // Project setup script
+  "postCreateCommand": "chmod +x .devcontainer/devcontainer-init.sh && .devcontainer/devcontainer-init.sh"
+}

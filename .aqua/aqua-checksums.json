@@ -1,0 +1,59 @@
+{
+  "checksums": [
+    {
+      "id": "github_release/github.com/golangci/golangci-lint/v2.6.1/golangci-lint-2.6.1-linux-amd64.tar.gz",
+      "checksum": "C22E188E46AFF9B140588ABE6828BA271B600AE82B2D6A4F452196A639C17EC0",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/golangci/golangci-lint/v2.6.1/golangci-lint-2.6.1-linux-arm64.tar.gz",
+      "checksum": "1C22B899F2DD84F9638E0E0352A319A2867B0BB082C5323AD50D8713B65BB793",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/goreleaser/goreleaser/v2.12.7/goreleaser_Linux_arm64.tar.gz",
+      "checksum": "7948D8CE09CCE3D3A2FFF9202EAE47D2223958E508F849B340345583BB2C0E1F",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/goreleaser/goreleaser/v2.12.7/goreleaser_Linux_x86_64.tar.gz",
+      "checksum": "DE95C5D1E728E18753C3DDCF02974D63D6432F0A7355A5AFA6813971A95A01B8",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/jqlang/jq/jq-1.8.1/jq-linux-amd64",
+      "checksum": "020468DE7539CE70EF1BCEAF7CDE2E8C4F2CA6C3AFB84642AABC5C97D9FC2A0D",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/jqlang/jq/jq-1.8.1/jq-linux-arm64",
+      "checksum": "6BC62F25981328EDD3CFCFE6FE51B073F2D7E7710D7EF7FCDAC28D4E384FC3D4",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/mikefarah/yq/v4.48.1/yq_linux_amd64",
+      "checksum": "99DF6047F5B577A9D25F969F7C3823ADA3488DE2E2115B30A0ABB10D9324FD9F",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/mikefarah/yq/v4.48.1/yq_linux_arm64",
+      "checksum": "0E46B5B926A9E57C526FA2BD8F8E38B7E17FBF6E2403FF1741F3B268E3363A9E",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "http/golang.org/dl/go1.25.4.linux-amd64.tar.gz",
+      "checksum": "9FA5FFEDA4170DE60F67F3AA0F824E426421BA724C21E133C1E35D6159CA1BEC",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "http/golang.org/dl/go1.25.4.linux-arm64.tar.gz",
+      "checksum": "A68E86D4B72C2C2FECF7DFED667680B6C2A071221BBDB6913CF83CE3F80D9FF0",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.433.0/registry.yaml",
+      "checksum": "731B0130B2222F170D38E9F03223A286BFFF02043B5B17E46E15569A7CFF5D0F0D149C7120BEEF32BCBF0A2285543AA379BF3A6F67DEC6FC91091B9AA0A0826D",
+      "algorithm": "sha512"
+    }
+  ]
+}
